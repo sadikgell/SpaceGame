@@ -16,17 +16,18 @@ public class RocketMovement : MonoBehaviour
     {
         rb.AddForce(0, 0, forwardForce * Time.deltaTime, ForceMode.VelocityChange);
 
+        rb.AddForce(0, 0, forwardForce * Time.deltaTime, ForceMode.VelocityChange);
 
 
         if (Input.GetKey("d"))
         {
             rb.AddForce(sidewayForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
-            rotateTransform.Rotate(3, 0, 0);
+            rotateTransform.rotation *= Quaternion.Euler(0, -rotationSpeed * Time.deltaTime, 0);
         }
         if (Input.GetKey("a"))
         {
             rb.AddForce(-sidewayForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
-            rotateTransform.Rotate(3, 0, 0);
+            rotateTransform.rotation *= Quaternion.Euler(0, rotationSpeed * Time.deltaTime, 0);
         }
         if (Input.GetKey("s"))
         {
