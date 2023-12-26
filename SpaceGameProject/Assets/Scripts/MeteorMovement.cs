@@ -10,17 +10,32 @@ namespace SpaceGame
     {
         public float speed = 5f;
         private Transform rocket;
+        public float startPosition = 100f;
+        private bool meteorMoving = false;
+        public float rotationSpeed = 5f;
 
         void Start()
         {
             rocket = GameObject.FindGameObjectWithTag("Rocket").transform;
         }
 
-        void Update()
-        {
-            transform.LookAt(rocket.position);
+        void FixedUpdate()
+        { 
 
-            transform.Translate(Vector3.forward * speed * Time.deltaTime);
+            if (Mathf.Abs(transform.position.z - rocket.position.z) < startPosition)
+            {
+                meteorMoving = true;
+            }
+
+            if (meteorMoving)
+            {
+                transform.LookAt(rocket.position);
+
+                transform.Translate(Vector3.forward * speed * Time.deltaTime);
+
+                transform.Rotate(Vector3.up * rotationSpeed * Time.deltaTime);
+                // calismiyor rotation buna sonra bakalim cozemedim o quentition falan vardi onlarla falan denedim olmadi
+            }
 
             if (transform.position.z < rocket.position.z)
             {

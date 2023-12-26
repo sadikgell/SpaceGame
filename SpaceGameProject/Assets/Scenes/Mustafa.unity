@@ -960,7 +960,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 299305239035999111, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
       propertyPath: speed
-      value: 8
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 865600882469765827, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
       propertyPath: m_Name
@@ -1245,6 +1245,10 @@ PrefabInstance:
     - target: {fileID: 865600882469765827, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
       propertyPath: m_Name
       value: meteor1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4861073574847235667, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
+      propertyPath: m_Convex
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6778896820443029255, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
       propertyPath: m_LocalPosition.x
