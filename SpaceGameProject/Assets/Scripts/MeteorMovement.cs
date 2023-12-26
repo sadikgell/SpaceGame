@@ -22,6 +22,11 @@ namespace SpaceGame
 
             transform.Translate(Vector3.forward * speed * Time.deltaTime);
 
+            if (transform.position.z < rocket.position.z)
+            {
+                Destroy(gameObject);
+            }
+
         }
     }
 
