@@ -12,6 +12,7 @@ namespace SpaceGame
 
         public Rigidbody rb;
         public Transform rotateTransform;
+        PowerUp playerNitro;
 
         void FixedUpdate()
         {
@@ -36,7 +37,7 @@ namespace SpaceGame
             }
             if (Input.GetKey("w"))
             {
-                rb.AddForce(forwardForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+                nitro.UseNitro(rb, forwardForce, playerNitro);
             }
         }
     }
