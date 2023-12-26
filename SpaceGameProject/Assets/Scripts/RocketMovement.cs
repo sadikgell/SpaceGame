@@ -37,7 +37,8 @@ namespace SpaceGame
             }
             if (Input.GetKey("w"))
             {
-                nitro.UseNitro(rb, forwardForce, playerNitro);
+                NitroFunction.UseNitro(rb, forwardForce, playerNitro);
+                
             }
         }
     }

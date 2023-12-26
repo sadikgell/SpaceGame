@@ -16,13 +16,13 @@ namespace SpaceGame
         public float NitroUseRate { get => nitroUseRate; set => nitroUseRate = value; }
     }
 
-    public class nitro : PowerUp
+    public class NitroFunction : PowerUp
     {
         
         public static void UseNitro(Rigidbody player,float forwardForce,PowerUp nitro)
         {
             player.AddForce(0, 0, forwardForce * Time.deltaTime, ForceMode.VelocityChange);
-            
+            Debug.Log(nitro.NitroCharge.GetType());
         }
     }
 }
