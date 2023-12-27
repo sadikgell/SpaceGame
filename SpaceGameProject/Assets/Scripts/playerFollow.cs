@@ -1,8 +1,10 @@
+using SpaceGame;
 using UnityEngine;
 namespace SpaceGame
 {
     public class followPlayer : MonoBehaviour
     {
+        
         public Transform player;
         public Vector3 offset;
 
