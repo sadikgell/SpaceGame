@@ -1,4 +1,3 @@
-using SpaceGame;
 using UnityEngine;
 namespace SpaceGame
 {
