@@ -1641,9 +1641,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1114243273}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64dc8e9f44cd5974c90748014f5fe309, type: 3}
+  m_Script: {fileID: 11500000, guid: 754ff1399a7561d42a6ab25d3fbb3929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  meteor: {fileID: 865600882469765827, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
+  spawnPos: {fileID: 1114243275}
 --- !u!4 &1114243275
 Transform:
   m_ObjectHideFlags: 0
@@ -1653,7 +1655,7 @@ Transform:
   m_GameObject: {fileID: 1114243273}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30.798317, y: 36.537235, z: 406.1}
+  m_LocalPosition: {x: -30.798317, y: 0, z: 406.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1811,7 +1813,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251188826}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2799,7 +2801,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6764564223855858074, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.7500076
+      value: -31.1
       objectReference: {fileID: 0}
     - target: {fileID: 6764564223855858074, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2807,7 +2809,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6764564223855858074, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11.987298
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6764564223855858074, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
       propertyPath: m_LocalRotation.w
