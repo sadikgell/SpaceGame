@@ -506,7 +506,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 502158196}
-  - component: {fileID: 502158195}
   m_Layer: 0
   m_Name: PowerUp Manager
   m_TagString: Untagged
@@ -514,18 +513,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &502158195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 502158194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10773b0c353afe04489d8c0daffe7f40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &502158196
 Transform:
   m_ObjectHideFlags: 0
@@ -845,7 +832,6 @@ GameObject:
   - component: {fileID: 1209572573}
   - component: {fileID: 1209572572}
   - component: {fileID: 1209572571}
-  - component: {fileID: 1209572570}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -853,20 +839,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1209572570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1209572569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c93805c95aaeb4f4ca6d32fe8da8a2a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1696034157}
-  offset: {x: 0, y: 5, z: -10}
 --- !u!45 &1209572571
 Skybox:
   m_ObjectHideFlags: 0
@@ -1400,11 +1372,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1696034157 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6764564223855858074, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
-  m_PrefabInstance: {fileID: 7843412939292976635}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1707417316
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1,9 +1,11 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 namespace SpaceGame
 {
-    public class followPlayer : MonoBehaviour
+    public class CameraPlayerFollow : MonoBehaviour
     {
-        
+
         public Transform player;
         public Vector3 offset;
 
