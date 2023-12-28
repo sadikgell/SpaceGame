@@ -47,14 +47,14 @@ namespace SpaceGame
                 UseNitro(rb, forwardForce);
             }
         }
-
+        
         public void UseNitro(Rigidbody player, float forwardForce)
         {
             if (nitroCharge > 0)
             {
                 forwardForce += forwardForce;
                 nitroCharge -= 30f * Time.deltaTime;
-                Debug.Log(nitroCharge);
+                
             }
         }
     }
