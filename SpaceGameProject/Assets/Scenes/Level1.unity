@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0076109036, g: 0.01788947, b: 0.017178316, a: 1}
+  m_IndirectSpecularColor: {r: 0.007627321, g: 0.01779767, b: 0.01737028, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -870,8 +870,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 616771552978869890, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 616771552978869890, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
       propertyPath: maxHealth
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3115026058589895969, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
+      propertyPath: forwardForce
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3115026058589895969, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
+      propertyPath: saveForwardForce
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3115026058589895969, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
+      propertyPath: nitroForwardForce
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 6245190856522779424, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
       propertyPath: m_Name
@@ -924,7 +940,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6245190856522779424, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1834680402}
   m_SourcePrefab: {fileID: 100100000, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
 --- !u!1001 &1794691429
 PrefabInstance:
@@ -1041,6 +1060,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1834680396 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6245190856522779424, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
+  m_PrefabInstance: {fileID: 1550146488}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1834680402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834680396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da903206fc908c946bb7c45afda7c4d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 1
+  scoreMultiplier: 50
 --- !u!1 &1845725720
 GameObject:
   m_ObjectHideFlags: 0

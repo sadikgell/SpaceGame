@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpawnMaker : MonoBehaviour
 {
-    protected float delayTimer = 15f;
+    protected float delayTimer = 5f;
     protected float repeatTimer = 1f;
     public GameObject meteor;
     public Transform spawnPos;

@@ -1,60 +1,74 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 namespace SpaceGame
 {
     public class RocketMovement : MonoBehaviour
     {
         //itiþ güçleri
-        public float forwardForce = 13f;  
-        public float sidewayForce = 5f;
-        public float backwardForce = 12f;
-        public float rotationSpeed = 3f;
+        public float forwardForce = 30f;
+        public float nitroForwardForce = 90f;
+        public float sidewayForce = 15f;
+        public float backwardForce = 25f;
+        public float rotationSpeed = 30f;
 
         //power up seviyeleri
         public float nitroCharge = 100f;
 
         public Rigidbody rb;
         public Transform rotateTransform;
-            
+
+        //score hesaplamasý
+        ScoreSaver gameScore;
+
+        private void Start()
+        {
+            gameScore = GetComponent<ScoreSaver>();
+        }
 
         void FixedUpdate()
         {
-            //add force kullanýrken kontroller zorlaþtýðý için velocityi sistemine geçilecek
-            rb.velocity = new Vector3(0, 0, forwardForce );
-            //rb.AddForce(0, 0, forwardForce * Time.deltaTime, ForceMode.VelocityChange);
+            gameScore.ScoreUp(1f);
+            
+            
 
 
             if (Input.GetKey("d"))
             {
                 rb.velocity += new Vector3(sidewayForce, 0, 0);
-                //rb.AddForce(sidewayForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+                
                 rotateTransform.rotation *= Quaternion.Euler(0, -rotationSpeed * Time.deltaTime, 0);
             }
             if (Input.GetKey("a"))
             {
                 rb.velocity += new Vector3(-sidewayForce, 0, 0);
-              //rb.AddForce(-sidewayForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+              
               rotateTransform.rotation *= Quaternion.Euler(0, rotationSpeed * Time.deltaTime, 0);
             }
             if (Input.GetKey("s"))
             {
                 rb.velocity += new Vector3(0, 0, -backwardForce);
-                //rb.AddForce(0, 0, -backwardForce * Time.deltaTime, ForceMode.VelocityChange);
+                
             }
-            if (Input.GetKey("w"))
+            if (Input.GetKey("w") && nitroCharge > 0)
             {
-                UseNitro(rb, forwardForce);
+                UseNitro(rb);
+            }
+            else
+            {
+                rb.velocity = new Vector3(0, 0, forwardForce);
             }
         }
         
-        public void UseNitro(Rigidbody player, float forwardForce)
+        public void UseNitro(Rigidbody player)
         {
             if (nitroCharge > 0)
             {
-                forwardForce += forwardForce;
+                rb.velocity = new Vector3(0, 0, nitroForwardForce);
                 nitroCharge -= 30f * Time.deltaTime;
-                
+                gameScore.ScoreUp(3);
             }
         }
     }
