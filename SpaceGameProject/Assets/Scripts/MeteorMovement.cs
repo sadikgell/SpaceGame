@@ -8,7 +8,7 @@ namespace SpaceGame
 
     public class MeteorMovement : MonoBehaviour
     {
-        public float speed = 5f;
+        public float speed = 10f;
         private Transform rocket;
         public float startPosition = 100f;
         private bool meteorMoving = false;
