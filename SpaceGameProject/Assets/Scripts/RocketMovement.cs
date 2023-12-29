@@ -28,8 +28,8 @@ namespace SpaceGame
 
         void FixedUpdate()
         {
-            
-            
+            rb.velocity = new Vector3(0, 0, forwardForce);
+
             if (Input.GetKey("d"))
             {
                 rb.velocity += new Vector3(sidewayForce, 0, 0);
@@ -40,7 +40,7 @@ namespace SpaceGame
             {
                 rb.velocity += new Vector3(-sidewayForce, 0, 0);
               
-              rotateTransform.rotation *= Quaternion.Euler(0, rotationSpeed * Time.deltaTime, 0);
+                 rotateTransform.rotation *= Quaternion.Euler(0, rotationSpeed * Time.deltaTime, 0);
             }
             if (Input.GetKey("s"))
             {
@@ -50,10 +50,6 @@ namespace SpaceGame
             if (Input.GetKey("w") && nitroCharge > 0)
             {
                 UseNitro(rb);
-            }
-            else
-            {
-                rb.velocity = new Vector3(0, 0, forwardForce);
             }
         }
         

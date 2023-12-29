@@ -120,5 +120,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
-  startPosition: 1000
-  rotationSpeed: 5
+  startPosition: 2000
+  rotationSpeed: 35

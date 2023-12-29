@@ -24,6 +24,5 @@ public class SpawnMaker : MonoBehaviour
     void SpawnEnemy()
     {
         Instantiate(meteor,spawnPos);
-       
     }
 }
