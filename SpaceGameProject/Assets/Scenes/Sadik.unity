@@ -211,7 +211,7 @@ Transform:
   m_GameObject: {fileID: 139736155}
   serializedVersion: 2
   m_LocalRotation: {x: 0.043619405, y: 0, z: 0, w: 0.9990483}
-  m_LocalPosition: {x: -0.33, y: 5.1, z: 2.9}
+  m_LocalPosition: {x: -49.3, y: 6.5, z: -13.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 378852208}
-  offset: {x: 0, y: 3, z: -8}
+  offset: {x: 0, y: 8, z: -15}
 --- !u!1 &181475484
 GameObject:
   m_ObjectHideFlags: 0
@@ -983,15 +983,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 35806d60e8f2a2343aaac889e8d96794, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 145.60507
+      value: 79
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 35806d60e8f2a2343aaac889e8d96794, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 114.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 35806d60e8f2a2343aaac889e8d96794, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 915.6
+      value: 986
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 35806d60e8f2a2343aaac889e8d96794, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6232,15 +6232,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3115026058589895969, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
       propertyPath: forwardForce
-      value: 50
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3115026058589895969, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
       propertyPath: sidewayForce
-      value: 50
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3115026058589895969, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
       propertyPath: backwardForce
-      value: 30
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3115026058589895969, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
       propertyPath: rotationSpeed

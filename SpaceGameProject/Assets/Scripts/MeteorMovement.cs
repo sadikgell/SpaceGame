@@ -37,7 +37,7 @@ namespace SpaceGame
                 // calismiyor rotation buna sonra bakalim cozemedim o quentition falan vardi onlarla falan denedim olmadi
             }
 
-            if (transform.position.z < rocket.position.z)
+            if (transform.position.z < rocket.position.z - 10)
             {
                 Destroy(gameObject);
             }
