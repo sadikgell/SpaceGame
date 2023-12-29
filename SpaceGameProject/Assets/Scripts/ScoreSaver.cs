@@ -6,10 +6,12 @@ using UnityEngine.UIElements;
 
 public class ScoreSaver : MonoBehaviour
 {
-    public float score = 1;
-    public float scoreMultiplier = 15;
-    public void ScoreUp(float point)
+    public Transform rocket;
+    public float score;
+
+    private void Update()
     {
-        score += point * scoreMultiplier *Time.deltaTime ; 
+        score = rocket.position.z;
     }
+
 }

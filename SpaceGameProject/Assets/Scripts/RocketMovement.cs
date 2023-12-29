@@ -20,21 +20,16 @@ namespace SpaceGame
         public Rigidbody rb;
         public Transform rotateTransform;
 
-        //score hesaplamasý
-        ScoreSaver gameScore;
-
+        
         private void Start()
         {
-            gameScore = GetComponent<ScoreSaver>();
+            
         }
 
         void FixedUpdate()
         {
-            gameScore.ScoreUp(1f);
             
             
-
-
             if (Input.GetKey("d"))
             {
                 rb.velocity += new Vector3(sidewayForce, 0, 0);
@@ -68,7 +63,6 @@ namespace SpaceGame
             {
                 rb.velocity = new Vector3(0, 0, nitroForwardForce);
                 nitroCharge -= 30f * Time.deltaTime;
-                gameScore.ScoreUp(3);
             }
         }
     }
