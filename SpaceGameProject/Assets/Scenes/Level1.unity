@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0027620122, g: 0.004211178, b: 0.0038640592, a: 1}
+  m_IndirectSpecularColor: {r: 0.0027378404, g: 0.004201987, b: 0.0038362422, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -683,13 +683,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: UfoSpaceGame
       objectReference: {fileID: 0}
+    - target: {fileID: 8632055958874330854, guid: 35806d60e8f2a2343aaac889e8d96794, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.2000004
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 35806d60e8f2a2343aaac889e8d96794, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 850003762}
+      addedObject: {fileID: 850003764}
   m_SourcePrefab: {fileID: 100100000, guid: 35806d60e8f2a2343aaac889e8d96794, type: 3}
 --- !u!1 &626301155
 GameObject:
@@ -747,7 +751,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 35806d60e8f2a2343aaac889e8d96794, type: 3}
   m_PrefabInstance: {fileID: 624684274}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &850003762
+--- !u!95 &850003764
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -1408,7 +1412,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 616771552978869890, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 616771552978869890, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
       propertyPath: maxHealth
