@@ -9,6 +9,7 @@ public class ScoreSaver : MonoBehaviour
     public Transform rocket;
     public float score;
 
+
     private void Update()
     {
         score = rocket.position.z;
