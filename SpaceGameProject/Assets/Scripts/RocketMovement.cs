@@ -7,6 +7,11 @@ namespace SpaceGame
 {
     public class RocketMovement : MonoBehaviour
     {
+
+        //Roket hýz efekti
+        public ParticleSystem speedEffect;
+        private bool isNitroActive=false;
+
         //itiþ güçleri
         public float forwardForce = 30f;
         public float nitroForwardForce = 90f;
@@ -51,6 +56,21 @@ namespace SpaceGame
             {
                 UseNitro(rb);
             }
+            else
+            {
+                isNitroActive = false;
+            }
+
+            // Nitro kullanýmý sýrasýnda hýz efektini etkinleþtir
+            if (isNitroActive && !speedEffect.isPlaying)
+            {
+                speedEffect.Play();
+            }
+            // Nitro kullanýmý bittiðinde hýz efektini kapat
+            else if (!isNitroActive && speedEffect.isPlaying)
+            {
+                speedEffect.Stop();
+            }
         }
         
         public void UseNitro(Rigidbody player)
@@ -59,6 +79,12 @@ namespace SpaceGame
             {
                 rb.velocity = new Vector3(0, 0, nitroForwardForce);
                 nitroCharge -= 30f * Time.deltaTime;
+
+                isNitroActive = true;
+            }
+            else
+            {
+                isNitroActive = false;
             }
         }
     }
