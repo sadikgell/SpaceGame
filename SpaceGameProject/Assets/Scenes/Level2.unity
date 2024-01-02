@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0027378404, g: 0.004201987, b: 0.0038362422, a: 1}
+  m_IndirectSpecularColor: {r: 0.0027620122, g: 0.004211178, b: 0.0038640592, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11131,7 +11131,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 616771552978869890, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 616771552978869890, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
       propertyPath: maxHealth
@@ -11144,6 +11144,10 @@ PrefabInstance:
     - target: {fileID: 3115026058589895969, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
       propertyPath: forwardForce
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3115026058589895969, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
+      propertyPath: sidewayForce
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3115026058589895969, guid: e92439ea4eb80e648b1e8284593b1b08, type: 3}
       propertyPath: saveForwardForce
