@@ -11372,7 +11372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 754ff1399a7561d42a6ab25d3fbb3929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  meteor: {fileID: 865600882469765827, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
+  meteor: {fileID: 919132149155446097, guid: 6feaf334e82b5014a9c6caaef38dd078, type: 3}
   spawnPos: {fileID: 1701333768}
 --- !u!1 &1780276064
 GameObject:
