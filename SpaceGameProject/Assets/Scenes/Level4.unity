@@ -313,7 +313,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 356189509}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -11014,7 +11014,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256285792}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -11969,6 +11969,7 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 2094000750}
   - {fileID: 1534627975}
   - {fileID: 937528480}
   - {fileID: 438077821}
@@ -11976,5 +11977,4 @@ SceneRoots:
   - {fileID: 1337455332}
   - {fileID: 1418898325}
   - {fileID: 1286317823}
-  - {fileID: 2094000750}
   - {fileID: 933790770}
