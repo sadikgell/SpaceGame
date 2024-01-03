@@ -6,6 +6,14 @@ namespace SpaceGame
 {
     public class LoadLevel4 : MonoBehaviour
     {
+        private void Update()
+        {
+            if (Input.GetKey(KeyCode.P))
+            {
+                LoadLevel("Level4");
+            }
+        }
+
         public void LoadLevel(string name)
         {
             SceneManager.LoadScene(name);

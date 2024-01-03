@@ -7,6 +7,13 @@ namespace SpaceGame
 {
     public class LoadendSceene : MonoBehaviour
     {
+        private void Update()
+        {
+            if (Input.GetKey(KeyCode.P))
+            {
+                LoadLevel("endSceene");
+            }
+        }
         public void LoadLevel(string name)
         {
             SceneManager.LoadScene(name);
