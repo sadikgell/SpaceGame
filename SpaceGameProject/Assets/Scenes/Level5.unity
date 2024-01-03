@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &11016923
+--- !u!1 &27431942
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,44 +131,44 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 11016924}
-  - component: {fileID: 11016925}
+  - component: {fileID: 27431943}
+  - component: {fileID: 27431944}
   m_Layer: 0
-  m_Name: Spawn Manager (1)
+  m_Name: Spawn Manager (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &11016924
+--- !u!4 &27431943
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 11016923}
+  m_GameObject: {fileID: 27431942}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.988327, y: -51.780277, z: 142.6868}
+  m_LocalPosition: {x: -66.98833, y: -51.780277, z: 192.6868}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1733067375}
+  m_Father: {fileID: 2137226845}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11016925
+--- !u!114 &27431944
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 11016923}
+  m_GameObject: {fileID: 27431942}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 754ff1399a7561d42a6ab25d3fbb3929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  meteor: {fileID: 919132149155446097, guid: 6feaf334e82b5014a9c6caaef38dd078, type: 3}
-  spawnPos: {fileID: 11016924}
+  meteor: {fileID: 865600882469765827, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
+  spawnPos: {fileID: 27431943}
 --- !u!1 &36357802
 GameObject:
   m_ObjectHideFlags: 0
@@ -5104,6 +5104,52 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &106146522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 106146523}
+  - component: {fileID: 106146524}
+  m_Layer: 0
+  m_Name: Spawn Manager (19)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &106146523
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106146522}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -35.988327, y: -55.3, z: 1532.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2137226845}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &106146524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106146522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754ff1399a7561d42a6ab25d3fbb3929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meteor: {fileID: 865600882469765827, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
+  spawnPos: {fileID: 106146523}
 --- !u!1 &107988200
 GameObject:
   m_ObjectHideFlags: 0
@@ -5425,52 +5471,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1631428229}
   m_SourcePrefab: {fileID: 100100000, guid: 35806d60e8f2a2343aaac889e8d96794, type: 3}
---- !u!1 &292304191
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 292304192}
-  - component: {fileID: 292304193}
-  m_Layer: 0
-  m_Name: Spawn Manager (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &292304192
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 292304191}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -35, y: -65.11972, z: 1328.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1733067375}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &292304193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 292304191}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 754ff1399a7561d42a6ab25d3fbb3929, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meteor: {fileID: 919132149155446097, guid: 6feaf334e82b5014a9c6caaef38dd078, type: 3}
-  spawnPos: {fileID: 292304192}
 --- !u!1 &315752289
 GameObject:
   m_ObjectHideFlags: 0
@@ -5565,6 +5565,52 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &323181498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 323181499}
+  - component: {fileID: 323181500}
+  m_Layer: 0
+  m_Name: Spawn Manager (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &323181499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323181498}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -66.6, y: -51.780277, z: 593}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2137226845}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &323181500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323181498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754ff1399a7561d42a6ab25d3fbb3929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meteor: {fileID: 865600882469765827, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
+  spawnPos: {fileID: 323181499}
 --- !u!1001 &325784569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5679,52 +5725,6 @@ Transform:
   - {fileID: 315752290}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &333920098
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 333920099}
-  - component: {fileID: 333920100}
-  m_Layer: 0
-  m_Name: Spawn Manager (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &333920099
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 333920098}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -83.98833, y: -60.280277, z: 766}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1733067375}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &333920100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 333920098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 754ff1399a7561d42a6ab25d3fbb3929, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meteor: {fileID: 865600882469765827, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
-  spawnPos: {fileID: 333920099}
 --- !u!1 &354521270
 GameObject:
   m_ObjectHideFlags: 0
@@ -6087,52 +6087,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1450156811}
   m_SourcePrefab: {fileID: 100100000, guid: 8065ce2b520f9f247bfd0f2f9902c311, type: 3}
---- !u!1 &665058977
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 665058978}
-  - component: {fileID: 665058979}
-  m_Layer: 0
-  m_Name: Spawn Manager (15)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &665058978
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 665058977}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -58.8, y: -61, z: 1831.8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1733067375}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &665058979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 665058977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 754ff1399a7561d42a6ab25d3fbb3929, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meteor: {fileID: 919132149155446097, guid: 6feaf334e82b5014a9c6caaef38dd078, type: 3}
-  spawnPos: {fileID: 665058978}
 --- !u!1 &701885642
 GameObject:
   m_ObjectHideFlags: 0
@@ -6390,52 +6344,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1 &848577564
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 848577565}
-  - component: {fileID: 848577566}
-  m_Layer: 0
-  m_Name: Spawn Manager (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &848577565
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 848577564}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.988327, y: -64.4, z: 542.68677}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1733067375}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &848577566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 848577564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 754ff1399a7561d42a6ab25d3fbb3929, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meteor: {fileID: 865600882469765827, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
-  spawnPos: {fileID: 848577565}
 --- !u!1 &862405227
 GameObject:
   m_ObjectHideFlags: 0
@@ -6563,52 +6471,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1 &991582489
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 991582490}
-  - component: {fileID: 991582491}
-  m_Layer: 0
-  m_Name: Spawn Manager (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &991582490
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 991582489}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -91, y: -65.11972, z: 1378.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1733067375}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &991582491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 991582489}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 754ff1399a7561d42a6ab25d3fbb3929, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meteor: {fileID: 865600882469765827, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
-  spawnPos: {fileID: 991582490}
 --- !u!1 &996489587
 GameObject:
   m_ObjectHideFlags: 0
@@ -11545,7 +11407,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!1 &1117870780
+--- !u!1 &1184184023
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11553,136 +11415,44 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1117870781}
-  - component: {fileID: 1117870782}
+  - component: {fileID: 1184184024}
+  - component: {fileID: 1184184025}
   m_Layer: 0
-  m_Name: Spawn Manager (2)
+  m_Name: Spawn Manager (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1117870781
+--- !u!4 &1184184024
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1117870780}
+  m_GameObject: {fileID: 1184184023}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.988327, y: -51.780277, z: 292.6868}
+  m_LocalPosition: {x: -69.38, y: -54.4, z: 1475.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1733067375}
+  m_Father: {fileID: 2137226845}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1117870782
+--- !u!114 &1184184025
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1117870780}
+  m_GameObject: {fileID: 1184184023}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 754ff1399a7561d42a6ab25d3fbb3929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   meteor: {fileID: 865600882469765827, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
-  spawnPos: {fileID: 1117870781}
---- !u!1 &1426284805
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1426284806}
-  - component: {fileID: 1426284807}
-  m_Layer: 0
-  m_Name: Spawn Manager (8)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1426284806
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1426284805}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -33.2, y: -26.6, z: 831.1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1733067375}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1426284807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1426284805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 754ff1399a7561d42a6ab25d3fbb3929, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meteor: {fileID: 865600882469765827, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
-  spawnPos: {fileID: 1426284806}
---- !u!1 &1448248112
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1448248113}
-  - component: {fileID: 1448248114}
-  m_Layer: 0
-  m_Name: Spawn Manager (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1448248113
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1448248112}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -66.98833, y: -64.4, z: 192.6868}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1733067375}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1448248114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1448248112}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 754ff1399a7561d42a6ab25d3fbb3929, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meteor: {fileID: 865600882469765827, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
-  spawnPos: {fileID: 1448248113}
+  spawnPos: {fileID: 1184184024}
 --- !u!1 &1450156810 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8065ce2b520f9f247bfd0f2f9902c311, type: 3}
@@ -11706,7 +11476,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8065ce2b520f9f247bfd0f2f9902c311, type: 3}
   m_PrefabInstance: {fileID: 630413420}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1529814257
+--- !u!1 &1562081423
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11714,44 +11484,44 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1529814258}
-  - component: {fileID: 1529814259}
+  - component: {fileID: 1562081424}
+  - component: {fileID: 1562081425}
   m_Layer: 0
-  m_Name: Spawn Manager (11)
+  m_Name: Spawn Manager (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1529814258
+--- !u!4 &1562081424
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1529814257}
+  m_GameObject: {fileID: 1562081423}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.988327, y: -51.780277, z: 1078}
+  m_LocalPosition: {x: -10.988327, y: -51.780277, z: 292.6868}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1733067375}
+  m_Father: {fileID: 2137226845}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1529814259
+--- !u!114 &1562081425
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1529814257}
+  m_GameObject: {fileID: 1562081423}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 754ff1399a7561d42a6ab25d3fbb3929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   meteor: {fileID: 865600882469765827, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
-  spawnPos: {fileID: 1529814258}
+  spawnPos: {fileID: 1562081424}
 --- !u!1 &1562890699
 GameObject:
   m_ObjectHideFlags: 0
@@ -11798,7 +11568,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1595094585
+--- !u!1 &1608944504
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11806,44 +11576,44 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1595094586}
-  - component: {fileID: 1595094587}
+  - component: {fileID: 1608944505}
+  - component: {fileID: 1608944506}
   m_Layer: 0
-  m_Name: Spawn Manager (14)
+  m_Name: Spawn Manager (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1595094586
+--- !u!4 &1608944505
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1595094585}
+  m_GameObject: {fileID: 1608944504}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -85.9, y: -38.6, z: 1699.9}
+  m_LocalPosition: {x: -16.41, y: -54.4, z: 1339.94}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1733067375}
+  m_Father: {fileID: 2137226845}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1595094587
+--- !u!114 &1608944506
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1595094585}
+  m_GameObject: {fileID: 1608944504}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 754ff1399a7561d42a6ab25d3fbb3929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  meteor: {fileID: 919132149155446097, guid: 6feaf334e82b5014a9c6caaef38dd078, type: 3}
-  spawnPos: {fileID: 1595094586}
+  meteor: {fileID: 865600882469765827, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
+  spawnPos: {fileID: 1608944505}
 --- !u!1 &1631428226 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 35806d60e8f2a2343aaac889e8d96794, type: 3}
@@ -11888,52 +11658,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!1 &1733067374
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1733067375}
-  m_Layer: 0
-  m_Name: SpawnPoints
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1733067375
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1733067374}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 38.988327, y: 59.780273, z: -92.68681}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 11016924}
-  - {fileID: 1117870781}
-  - {fileID: 848577565}
-  - {fileID: 1529814258}
-  - {fileID: 1448248113}
-  - {fileID: 292304192}
-  - {fileID: 991582490}
-  - {fileID: 1969161727}
-  - {fileID: 1985357312}
-  - {fileID: 333920099}
-  - {fileID: 1426284806}
-  - {fileID: 1835912448}
-  - {fileID: 1848732838}
-  - {fileID: 1595094586}
-  - {fileID: 665058978}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1742418931 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3485da258e4511048ab07b29f8291221, type: 3}
@@ -11957,7 +11681,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotateSpeed: 10
---- !u!1 &1835912447
+--- !u!1 &1763820969
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11965,90 +11689,44 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1835912448}
-  - component: {fileID: 1835912449}
+  - component: {fileID: 1763820970}
+  - component: {fileID: 1763820971}
   m_Layer: 0
-  m_Name: Spawn Manager (12)
+  m_Name: Spawn Manager (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1835912448
+--- !u!4 &1763820970
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1835912447}
+  m_GameObject: {fileID: 1763820969}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.43, y: -51.780277, z: 1831.8}
+  m_LocalPosition: {x: -45.4, y: -51.780277, z: 625.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1733067375}
+  m_Father: {fileID: 2137226845}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1835912449
+--- !u!114 &1763820971
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1835912447}
+  m_GameObject: {fileID: 1763820969}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 754ff1399a7561d42a6ab25d3fbb3929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  meteor: {fileID: 919132149155446097, guid: 6feaf334e82b5014a9c6caaef38dd078, type: 3}
-  spawnPos: {fileID: 1835912448}
---- !u!1 &1848732837
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1848732838}
-  - component: {fileID: 1848732839}
-  m_Layer: 0
-  m_Name: Spawn Manager (13)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1848732838
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1848732837}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -67.5, y: -59.7, z: 1752.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1733067375}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1848732839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1848732837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 754ff1399a7561d42a6ab25d3fbb3929, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meteor: {fileID: 919132149155446097, guid: 6feaf334e82b5014a9c6caaef38dd078, type: 3}
-  spawnPos: {fileID: 1848732838}
+  meteor: {fileID: 865600882469765827, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
+  spawnPos: {fileID: 1763820970}
 --- !u!1 &1872909876 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6feaf334e82b5014a9c6caaef38dd078, type: 3}
@@ -12093,7 +11771,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!1 &1969161726
+--- !u!1 &2030784389
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12101,90 +11779,44 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1969161727}
-  - component: {fileID: 1969161728}
+  - component: {fileID: 2030784390}
+  - component: {fileID: 2030784391}
   m_Layer: 0
-  m_Name: Spawn Manager (10)
+  m_Name: Spawn Manager (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1969161727
+--- !u!4 &2030784390
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1969161726}
+  m_GameObject: {fileID: 2030784389}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -139, y: -83, z: 1578.9}
+  m_LocalPosition: {x: -10.988327, y: -51.780277, z: 142.6868}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1733067375}
+  m_Father: {fileID: 2137226845}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1969161728
+--- !u!114 &2030784391
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1969161726}
+  m_GameObject: {fileID: 2030784389}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 754ff1399a7561d42a6ab25d3fbb3929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  meteor: {fileID: 865600882469765827, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
-  spawnPos: {fileID: 1969161727}
---- !u!1 &1985357311
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1985357312}
-  - component: {fileID: 1985357313}
-  m_Layer: 0
-  m_Name: Spawn Manager (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1985357312
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985357311}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -114.98833, y: -82.28027, z: 392.6868}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1733067375}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1985357313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985357311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 754ff1399a7561d42a6ab25d3fbb3929, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meteor: {fileID: 865600882469765827, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
-  spawnPos: {fileID: 1985357312}
+  meteor: {fileID: 919132149155446097, guid: 6feaf334e82b5014a9c6caaef38dd078, type: 3}
+  spawnPos: {fileID: 2030784390}
 --- !u!1 &2069600769
 GameObject:
   m_ObjectHideFlags: 0
@@ -12290,6 +11922,92 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2069600769}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2137226844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2137226845}
+  m_Layer: 0
+  m_Name: SpawnPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2137226845
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137226844}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 38.988327, y: 59.780273, z: -92.68681}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2030784390}
+  - {fileID: 1562081424}
+  - {fileID: 27431943}
+  - {fileID: 1763820970}
+  - {fileID: 323181499}
+  - {fileID: 1608944505}
+  - {fileID: 106146523}
+  - {fileID: 2142846685}
+  - {fileID: 1184184024}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2142846684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2142846685}
+  - component: {fileID: 2142846686}
+  m_Layer: 0
+  m_Name: Spawn Manager (21)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2142846685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142846684}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -30.6, y: -54.4, z: 1797.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2137226845}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2142846686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142846684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754ff1399a7561d42a6ab25d3fbb3929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meteor: {fileID: 865600882469765827, guid: 9f1dd6c9eb8ad52469cbf3e5dbdffcab, type: 3}
+  spawnPos: {fileID: 2142846685}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -12299,8 +12017,8 @@ SceneRoots:
   - {fileID: 160594652}
   - {fileID: 862405228}
   - {fileID: 600000176}
-  - {fileID: 1733067375}
   - {fileID: 1562890701}
   - {fileID: 330214675}
   - {fileID: 798408532}
   - {fileID: 262543058}
+  - {fileID: 2137226845}
