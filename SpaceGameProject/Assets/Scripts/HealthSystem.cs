@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 namespace SpaceGame
@@ -19,7 +20,7 @@ namespace SpaceGame
         {
             if (currentHealth <= 0)
             {
-                Time.timeScale = 0f;
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
                 //buraya oyun bitince maine atmayi ekleriz simdilik durdurma yaptim
             }
         }
